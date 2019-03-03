@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "vg-schematic": {
+      "description": "vg schematic.",
+      "factory": "./vg-schematic/index#vgSchematic",
+      "schema": "./vg-schematic/schema.json"
+    }
+  }
+}
